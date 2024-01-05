@@ -9,18 +9,23 @@
 <body>
     <div class="container">
         <section class="sidebar">
-            <div class="logo"><span><img src="#" alt="logo"></span>Dashboard</div>
+            <div class="logo"><span><img src="./images/lg-av/logo.png" alt="logo"></span><h1>Dashboard</h1></div>
             <div class="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><span><img src="./images/icons/home.svg" alt="home icon"></span>Home</li>
+                    <li><span><img src="./images/icons/profile.svg" alt="profile icon"></span>Profile</li>
+                    <li><span><img src="./images/icons/messages.svg" alt="messages icon"></span>Messages</li>
+                    <li><span><img src="./images/icons/history.svg" alt="history icon"></span>History</li>
+                    <li><span><img src="./images/icons/tasks.svg" alt="tasks icon"></span> Tasks</li>
+                    <li><span><img src="./images/icons/communities.svg" alt="communities icon"></span> Communities</li>
                 </ul>
             </div>
             <div class="service">
+                <ul class="icons">
+                    <li><img src="./images/icons/cog.svg" alt="settings icon"></li>
+                    <li><img src="./images/icons/support.svg" alt="support icon"></li>
+                    <li><img src="./images/icons/privacy.svg" alt="privacy icon"></li>
+                </ul>
                 <ul>
                     <li>Settings</li>
                     <li>Support</li>
@@ -30,25 +35,24 @@
         </section>
         <section class="header">
             <div class="search">
-                <p>button holder</p>
-                <p>search holder</p>
+                <img src="./images/icons/search.svg" alt="search icon"><input type="text" id="searchbar">
             </div>
-            <div>
-                <img src="#" alt="user icon">
-                <p>Hi there,</p>
-                <p>Morgan Oakley @morgan</p>
+            <div class="user-container">
+                <img src="./images/lg-av/batman.png" alt="user icon">
+                <div>
+                    <h4>Hi there,</h4>
+                    <h1>Morgan Oakley @morgan</h1>
+                </div>
             </div>
-            <div class="right">
-                <div class="top">
-                    <img src="#" alt="notification bell">
-                    <img src="#" alt="user icon">
-                    <p>Morgan Oakley</p>
-                </div>
-                <div class="buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
+            <div class="top-right">
+                <img src="./images/icons/notification.svg" alt="notification bell" class="bell">
+                <img src="./images/lg-av/batman.png" alt="user icon" class="avatar-small">
+                <p>Morgan Oakley</p>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </section>
         <section class="main">
@@ -81,32 +85,49 @@
             </div>
             <div class="main-right">
                 <div class="announcement">
-                    <h3>Announcement</h3>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <h2>Announcement</h2>
+                    <div>
+                        <h3>Site maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores placeat atque suscipit sapiente iusto quas, est doloremque sed expedita?</p>
+                        <hr class="breakline">
+                        <h3>Community Share day</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores placeat atque suscipit sapiente iusto quas, est doloremque sed expedita?</p>
+                        <hr>
+                        <h3>Updated privacy policy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores placeat atque suscipit sapiente iusto quas, est doloremque sed expedita?</p>
+                    </div>
                 </div>
                 <div class="trending">
-                    <h3>Trending</h3>
-                    <div class="users">
-                        <img src="#" alt="avatar image">
-                        <h4>@Sameer</h4>
-                        <p></p>
-                    </div>
-                    <div class="users">
-                        <img src="#" alt="avatar image">
-                        <h4>@Tegan</h4>
-                        <p></p>
-                    </div>
-                    <div class="users">
-                        <img src="#" alt="avatar image">
-                        <h4>@Kendall</h4>
-                        <p></p>
-                    </div>
-                    <div class="users">
-                        <img src="#" alt="avatar image">
-                        <h4>@Alex</h4>
-                        <p></p>
+                    <h2>Trending</h2>
+                    <div class="trending-container">
+                        <div class="users">
+                            <img src="./images/lg-av/av1.png" alt="avatar image">
+                            <div>
+                                <h4>@Sameer</h4>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <img src="./images/lg-av/av2.png" alt="avatar image">
+                            <div>
+                                <h4>@Tegan</h4>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <img src="./images/lg-av/av3.png" alt="avatar image">
+                            <div>
+                                <h4>@Kendall</h4>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <img src="./images/lg-av/av4.png" alt="avatar image">
+                            <div>
+                                <h4>@Alex</h4>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
