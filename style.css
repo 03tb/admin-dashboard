@@ -129,6 +129,7 @@ body * {
   border-radius: 20px;
   background-color: var(--main-bg);
   padding-left: 10px;
+  border: none;
 }
 
 .user-container {
